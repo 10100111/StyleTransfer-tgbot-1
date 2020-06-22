@@ -24,7 +24,6 @@ def init_and_start_bot():
 
     @bot.message_handler(commands=['start'])
     def start_command(message):
-        print(message)
         bot.send_message(message.chat.id, 'Hi! im a style transfer bot!')
 
     @bot.message_handler(commands=['help'])
