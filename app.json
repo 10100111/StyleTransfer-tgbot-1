@@ -1,0 +1,6 @@
+{
+  "name": "StyleTransfer-tgbot",
+  "description": "Style transfer tlegram bot (Pytorch)",
+  "repository": "https://github.com/timbyxty/StyleTransfer-tgbot",
+  "keywords": ["NST", "pytorch", "telegrambotapi"]
+}
