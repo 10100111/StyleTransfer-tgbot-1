@@ -43,7 +43,6 @@ def init_and_start_bot():
                 users[message.chat.id]['content'] = message.photo[-1].file_id
                 bot.send_message(message.chat.id, 'Send me style image')
             elif not users[message.chat.id]['style']:
-                exit()
                 users[message.chat.id]['style'] = message.photo[-1].file_id
                 bot.send_message(message.chat.id, 'Transfer started, wait ~1 min')
                 call_transfer(message.chat.id)
