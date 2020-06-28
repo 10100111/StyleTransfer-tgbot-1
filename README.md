@@ -22,4 +22,4 @@
 # Telegram frontend <img src=https://sun9-38.userapi.com/c858528/v858528388/1c0f17/l8lwLWnQHg8.jpg width="32">
 Связка с телеграмом реализована при помощи библиотеки [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/0.3.0/)
 
-# Работающий бот доступен в телеграме по никнейму [@ebanyivolshebnikBot](https://tttttt.me/ebanyivolshebnikBot)
+# Работающий бот доступен в телеграме по никнейму [@ebanyivolshebnikBot](https://t.me/ebanyivolshebnikBot)
