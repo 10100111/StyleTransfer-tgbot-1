@@ -3,7 +3,7 @@ from src.config import TOKEN, endpoint, herokuapi
 from flask import Flask, request
 import os
 from src.transfer import process
-import heroku3
+# import heroku3
 
 
 def init_and_start_bot():
@@ -48,7 +48,7 @@ def init_and_start_bot():
                 with open(str(message.chat.id) + '_styled.jpg', 'rb') as f:
                     bot.send_photo(message.chat.id, f)
                 remove_data(message.chat.id)
-                heroku3.from_key(herokuapi).apps()[0].dynos()[0].restart()
+#                 heroku3.from_key(herokuapi).apps()[0].dynos()[0].restart()
 
     def remove_data(user):
         for i in ['_content.jpg', '_style.jpg', '_styled.jpg']:
