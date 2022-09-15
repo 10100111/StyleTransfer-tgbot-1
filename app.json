@@ -1,6 +1,6 @@
 {
-  "name": "StyleTransfer-tgbot",
+  "name": "aiogramechobotwebhookyanki",
   "description": "Style transfer tlegram bot (Pytorch)",
-  "repository": "https://github.com/timbyxty/StyleTransfer-tgbot",
+  "repository": "https://github.com/10100111/StyleTransfer-tgbot-1.git",
   "keywords": ["NST", "pytorch", "telegrambotapi"]
 }
